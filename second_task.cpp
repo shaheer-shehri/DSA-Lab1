@@ -18,13 +18,13 @@ int substring_occurrence(string text, string pattern){
 }
 
 int main(){
-    string arr [] = {"This is a book.", "book is on table.", "I got a ball.",""};
+    string arr [] = {"students are learning books.", "books are being read by students.", "I got a ball.",""};
     cout << "Finding substring book in all strings:" << endl;
     int count = 1;
     for (string str : arr){
         cout << "Case no " << count << endl;
         count++;
-        cout << "Location index for this case is:" << substring_occurrence(str,"book") << endl;
+        cout << "Location index for this case is:" << substring_occurrence(str,"student") << endl;
     }
 
 
