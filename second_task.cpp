@@ -24,8 +24,7 @@ int main(){
     for (string str : arr){
         cout << "Case no " << count << endl;
         count++;
+        // finding the student string
         cout << "Location index for this case is:" << substring_occurrence(str,"student") << endl;
     }
-
-
 }
