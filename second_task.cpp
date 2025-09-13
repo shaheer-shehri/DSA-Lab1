@@ -18,6 +18,7 @@ int substring_occurrence(string text, string pattern){
 }
 
 int main(){
+    // finding the book string here to create a merge conflict
     string arr [] = {"students are learning books.", "books are being read by students.", "I got a ball.",""};
     cout << "Finding substring book in all strings:" << endl;
     int count = 1;
@@ -28,3 +29,4 @@ int main(){
         cout << "Location index for this case is:" << substring_occurrence(str,"student") << endl;
     }
 }
+
